@@ -1,5 +1,4 @@
-%JAGADEESHWARAN R and LOKESH KUMAR A N 
-%DATE: 18:02:2016
+%JAGADEESHWARAN R 
 
 %Face Recognition Using Particle Swarm Optimization-Based Selected Features
 
@@ -59,7 +58,7 @@ for j = 1:35                              %35 subjects
 
 %==========================Feature extraction=============================%    
 %---------------------3-Lvl Wavelet Decompositiion------------------------%
-   wname = 'coif5';
+   wname = 'haar';
    [CA1,CH1,CV1,CD1] = dwt2(face,wname);
    [CA2,CH2,CV2,CD2] = dwt2(CA1,wname);
    [CA,CH,CV,CD] = dwt2(CA2,wname);
